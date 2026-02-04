@@ -12,7 +12,7 @@ print(sdr)
 print(data)
 
 #file_name = al_data_sr_2.2
-np.savez("way_above_lim_600khz.npz", data)
+np.savez("Nway_above_lim_800khz.npz", data)
 
 
 
