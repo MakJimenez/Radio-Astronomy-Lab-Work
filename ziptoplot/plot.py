@@ -5,8 +5,8 @@ import matplotlib.pyplot as plt
 
 def quickplot(index_data, frequency, amplitude, xlim, title, line_color):
 	"""
-	Plots a long, narrow graph of desired data.
-	Frequency is in kilohertz, amplitude is in mV.
+	Plots a long, narrow graph of desired data (index_data).
+	Frequency is in kilohertz, amplitude is in ADC.
 	X-axis is based on counts from 0-100.   
 	"""
 	#Plot Structure
@@ -17,6 +17,6 @@ def quickplot(index_data, frequency, amplitude, xlim, title, line_color):
 	#Labels
 	plt.title(title)
 	plt.xlabel('Counts')
-	plt.ylabel('Amplitude')
+	plt.ylabel('Amplitude (ADC)')
 	#plt.show()
 	return plt.show()
