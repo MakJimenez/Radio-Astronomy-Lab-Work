@@ -1,6 +1,7 @@
 # File : plot.py
 
 import numpy as np
+import matplotlib.pyplot as plt
 
 def quickplot(index_data, frequency, amplitude, xlim, title, line_color):
 	"""
