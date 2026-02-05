@@ -11,7 +11,7 @@ def quickplot(index_data, frequency, amplitude, xlim, title, line_color):
 	"""
 	#Plot Structure
 	plt.figure()
-	plt.plot(index_data, f'{linecolor}')
+	plt.plot(index_data, f'{line_color}')
 	plt.xlim(0, xlim)
 
 	#Labels
