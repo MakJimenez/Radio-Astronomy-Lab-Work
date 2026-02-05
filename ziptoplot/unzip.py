@@ -1,5 +1,7 @@
 # File : unzip.py 
 
+import numpy as np
+
 def unzip(data, index):
 	"""
 	Opens .npz data files to desired index in the first array.  

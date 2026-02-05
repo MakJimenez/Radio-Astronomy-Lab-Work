@@ -1,5 +1,7 @@
 # File : plot.py
 
+import numpy as np
+
 def quickplot(index_data, frequency, amplitude, xlim, title, line_color):
 	"""
 	Plots a long, narrow graph of desired data.
