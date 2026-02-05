@@ -8,5 +8,5 @@ def unzip(data, index):
 	"""
 	unzip_data = np.load(f'{data}')
 	read_data = unzip_data["arr_0"]
-	index_data = unzip_data[index]
+	index_data = read_data[index]
 	return index_data
