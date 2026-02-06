@@ -13,4 +13,4 @@ def calcaf(signal_frequency, sampling_rate_, nyquist_zone):
 	frequency = 600000 # Hz
 	k = 1 # first nyquist zone
 	f_alias =  (sampling_rate - k * frequency)
-	return f_alias
+	return (f'Expected Aliased Frequency: {f_alias}')
