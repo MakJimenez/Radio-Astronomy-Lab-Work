@@ -8,4 +8,4 @@ classifiers = ["Programming Language :: Python :: 3" "Operating System :: OS Ind
 lisence = "MIT"
 
 [project.urls]
-Homepage = 
+Homepage = "

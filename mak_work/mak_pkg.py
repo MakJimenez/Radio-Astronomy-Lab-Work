@@ -41,7 +41,7 @@ def guass(x, mu, A, sigma, C):
 
 
 
-#for installation
-[build-system]
-requires = ["setuptools >= 77.0.3"]
-build-backend = "setuptools.build_meta"
+# #for installation
+# [build-system]
+# requires = ["setuptools >= 77.0.3"]
+# build-backend = "setuptools.build_meta"
