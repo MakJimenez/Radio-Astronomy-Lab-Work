@@ -35,8 +35,8 @@ def freq_plots(ax, pos_x, frequency, title = "", subx=1, suby=4, figS1 = 140, fi
     axs.patch.set_alpha(opacity)
 
 
-def guass(x, mu, A, sigma, C):
-    calculation = A * np.exp(-(-x-mu)**2 / (2*sigma**2)) + C
+# def guass(x, mu, A, sigma, C):
+#     calculation = A * np.exp(-(-x-mu)**2 / (2*sigma**2)) + C
 
 
 

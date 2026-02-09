@@ -1,0 +1,6 @@
+pyproject.toml
+src/mak_pkg.egg-info/PKG-INFO
+src/mak_pkg.egg-info/SOURCES.txt
+src/mak_pkg.egg-info/dependency_links.txt
+src/mak_pkg.egg-info/requires.txt
+src/mak_pkg.egg-info/top_level.txt

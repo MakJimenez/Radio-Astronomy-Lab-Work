@@ -1,0 +1,28 @@
+#for installation
+[build-system]
+requires = ["setuptools >= 77.0.3"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name= "mak_pkg"
+version = "1.0"
+#authors = [{name = "Makaio Jimenez, email = "makaiojimenez@berkeley.edu}]
+description = "A homemade python package for Lab 1, Astron 121"
+requires-python = ">=3.9"
+dependencies = ["numpy", "matplotlib"]
+#classifiers = ["Programming Language :: Python :: 3" "Operating System :: OS Independent"]
+
+#lisence = {text = "MIT"}
+
+
+
+
+
+[project.urls]
+Homepage = "https://github.com/MakJimenez/Radio-Astronomy-Lab-Work/tree/Makaio"
+
+[tool.setuptools]
+package-dir = {""="src"}
+
+[tool.setuptools.packages.find]
+where = ["src"]

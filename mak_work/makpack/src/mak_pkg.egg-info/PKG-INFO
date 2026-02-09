@@ -1,0 +1,8 @@
+Metadata-Version: 2.4
+Name: mak_pkg
+Version: 1.0
+Summary: A homemade python package for Lab 1, Astron 121
+Project-URL: Homepage, https://github.com/MakJimenez/Radio-Astronomy-Lab-Work/tree/Makaio
+Requires-Python: >=3.9
+Requires-Dist: numpy
+Requires-Dist: matplotlib
