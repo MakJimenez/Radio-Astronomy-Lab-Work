@@ -1,0 +1,11 @@
+[Makaio-Package]
+name= "mak_pkg"
+version = "1"
+authors = [{name = "Makaio Jimenez, email = "makaiojimenez@berkeley.edu}]
+description = "A homemade python package for Lab 1, Astron 121"
+requires-python = ">=3.9"
+classifiers = ["Programming Language :: Python :: 3" "Operating System :: OS Independent"]
+lisence = "MIT"
+
+[project.urls]
+Homepage = 
